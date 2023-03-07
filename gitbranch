@@ -1,0 +1,19 @@
+# Branch Types
+
+## feature/
+A branch used for developing a new feature or functionality in the codebase. Once the feature is complete, the branch can be merged back into the main branch.
+
+## bugfix/
+A branch used for fixing a bug in the codebase. Once the bug is fixed, the branch can be merged back into the main branch.
+
+## hotfix/
+A branch used for fixing a critical issue in the codebase that cannot wait for the next release. Once the hotfix is complete, the branch can be merged back into both the main branch and any other active release branches.
+
+## release/
+A branch used for preparing a new release of the codebase. This branch is typically created once all feature and bugfix branches have been merged into the main branch. Once the release is ready, the branch can be merged back into the main branch and tagged with a version number.
+
+## develop/
+A branch used for integrating changes from feature and bugfix branches before they are merged into the main branch. Once the changes are integrated, the branch can be merged back into the main branch.
+
+## main/
+The main branch of the codebase, which should always contain a stable and deployable version of the code. Changes should be integrated into this branch through pull requests from feature and bugfix branches.
